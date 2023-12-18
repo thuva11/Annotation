@@ -21,7 +21,7 @@
 # Web - Controllers
  - @EnableWebMVC
  - @RequestMapping
- - @GetMapping
+ - @GetMapping is a Spring annotation that helps map HTTP GET requests to specific methods in a controller. It simplifies the process of handling GET requests in a web application, making it easy to define clean and readable URL paths for different functionalities. This annotation is commonly used in Spring MVC to create RESTful APIs, allowing developers to structure their code in a straightforward manner and handle GET requests efficiently.
  - @PutMapping
  - @PostMapping
  - @DeleteMapping
@@ -35,7 +35,8 @@
 
 # Data - Repos & Entities
  - @Transactional
- - @Query
+ - @Query is used with Spring Data JPA to create custom queries for database operations. It allows you to define native SQL queries directly in your repository interface.
+
  - @Id
  - @Column
  - @GeneratedValue
